@@ -1,0 +1,30 @@
+.bgWrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.decoration {
+    position: absolute;
+}
+
+.topLeftDecoration {
+    top: 0;
+    left: 0;
+}
+
+.topRightDecoration {
+    right: 0;
+}
+
+.bottomLeftDecoration {
+    left: 0;
+    bottom: 0;
+}
+
+.bottomRightDecoration {
+    right: 0;
+    bottom: 0;
+}

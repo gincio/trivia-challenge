@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:regular,bold,italic&subset=latin,latin-ext');
+
+
+.screen {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    overflow-y: auto;
+}
+
+.primary {
+    background-color: #4751C0;
+    color: white;
+}
+
+.secondary {
+    background-color: #E5E5E5;
+}
+
+.wrapper {
+    max-width: 800px;
+}

@@ -1,0 +1,23 @@
+.formButton {
+    padding: 1em;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(90deg, #FFA67A 0%, #FF6065 67%, #f15b5b 100%);
+    background-size: 150% 100%;
+    background-position-x: 0;
+    border: none;
+    border-radius: 14px;
+    width: calc(100% - 1em);
+    height: 4em;
+    box-shadow: #C65252 0px 6px;
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: 700;
+    transition: background-position-x .3s ease-in-out, box-shadow-;
+}
+
+.formButton:hover,
+.formButton:active,
+.formButton:focus {
+    background-position-x: 50%;
+}
